@@ -5,7 +5,7 @@ require "zookeeper_jar/version"
 Gem::Specification.new do |s|
   s.name        = "slyphon-zookeeper_jar"
   s.version     = ZookeeperJar::VERSION
-  s.platform    = 'java'
+#   s.platform    = 'java'
   s.authors     = ["Jonathan D. Simms"]
   s.email       = ["slyphon@gmail.com"]
   s.homepage    = "https://github.com/slyphon/zookeeper_jar"
