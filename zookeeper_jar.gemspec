@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "zookeeper_jar/version"
 
 Gem::Specification.new do |s|
-  s.name        = "slyphon-zookeeper_jar"
+  s.name        = "zk-ruby-zookeeper_jar"
   s.version     = ZookeeperJar::VERSION
 #   s.platform    = 'java'
-  s.authors     = ["Jonathan D. Simms"]
+  s.authors     = ["Jonathan D. Simms", "Eric Lindvall"]
   s.email       = ["slyphon@gmail.com"]
-  s.homepage    = "https://github.com/slyphon/zookeeper_jar"
+  s.homepage    = "https://github.com/zk-ruby/zookeeper_jar"
   s.summary     = %q{the zookeeper jar file wrapped in a gem}
   s.description = s.summary
 
